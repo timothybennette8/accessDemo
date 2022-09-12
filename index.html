@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        padding: 1rem;
+      }
+      .group {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+      }
+
+      .group > * {
+        margin-bottom: 0.5rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="group">
+      <sp-button id="btnDefine">Define Working Folder</sp-button>
+      <sp-label id="labelWorkingFolder"></sp-label>
+      <hr />
+      <sp-button id="btnSave">Save</sp-button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
